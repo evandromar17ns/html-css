@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas </title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+        }
+
+        h1 {
+            background-color: black;
+            color: aliceblue;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 3em;
+        }
+
+        h1:hover {
+            background-color: aqua;
+            color: black;
+            transition-duration: .3s;
+        }
+
+        table {
+            background-color: rgb(243, 147, 22);
+            width: 360px;
+            height: 360px;
+            border-collapse: collapse;
+            box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.327);
+           
+    
+
+
+
+
+        }
+
+        td:hover {
+            background-color: rgb(1, 255, 255);
+            transition-duration: 1s;
+            color: rgb(193, 163, 234)
+        }
+
+
+
+        td {
+            border: 2px solid rgb(0, 0, 0);
+            padding: 6px;
+            padding-left: 15px;
+            vertical-align: top;
+            text-align: right;
+
+
+        }
+
+
+        #total {
+            width: 120px;
+            height: 20px;
+            margin-top: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+
+        .total {
+            background-color: rgb(120, 184, 240);
+            border: 2px solid black;
+            font-size: 1em;
+            text-align: left;
+
+
+
+        }
+
+        .total:hover {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Minha primeira tabela </h1>
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+
+
+
+    </table>
+    </tr>
+
+    <table id="total">
+        <tr>
+            <td class="total">Total =</td>
+        </tr>
+    </table>
+</body>
+
+</html>

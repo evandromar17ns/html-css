@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML</title>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor. </p>
+    <video controls width="560" poster="imagens/imagem-tucano2.jpg" autoplay loop>
+        <source src="midia/Meu-Video-Tucano.mkv" type="video/mkv">
+        <source src="midia/meu-video-tucano.mp4" type="video/mp4">
+        <source src="midia/Meu-Video-Tucano.ogv" type="video/ogv">
+        <source src="midia/Meu-Video-Tucano.webm" type="video/webm">
+        z
+    </video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/t3WZIL_VwYg?si=0ZLNkaWtol9Wn_bt"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo.</h1>
+    <iframe src="https://player.vimeo.com/video/185871317?h=a63f42bf1b&portrait=0" width="560" height="315"
+        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</html>
