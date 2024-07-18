@@ -4,6 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px; 
+    
 }
 
 
@@ -17,7 +18,7 @@ header{
     
 }
 
-i#burguer{
+#burguer{
     background-color: rgb(18, 18, 18);
     display: block;
     color: white;
